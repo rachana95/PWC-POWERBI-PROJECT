@@ -1,41 +1,46 @@
 # PWC-POWERBI-PROJECT
-Call Centre Data Analysis Using Power BI
- Project Objectives :
-✔ To analyze overall call centre performance through interactive dashboards
-✔ To track key metrics such as Call Volume, Customer Satisfaction (CSAT), Call Abandon Rate, and Average Handling Time
-✔ To evaluate individual agent performance and identify improvement areas
-✔ To help management make data-driven decisions for improving call centre efficiency
+# 📞 Call Centre Data Analysis Dashboard
 
-Dashboard Walkthrough :
-Key Metrics Displayed:
-✔ Total Call Volume: 5000
-✔ Customer Satisfaction (CSAT): 68.07%
-✔ Call Resolve Rate: 89.94%
-✔ Call Abandon Rate: 18.92%
-✔ Average Speed of Answer: 67.52 sec
-✔ Average Call Handling Time: 224.92 sec
+This Power BI project visualizes key performance indicators of a call center’s operations, focusing on agent performance, call volumes, customer satisfaction, and efficiency metrics. The dashboard was developed to provide real-time, actionable insights for improving service quality and operational effectiveness.
 
-Visualizations Include:
+---
 
-Agent-wise performance table
+## 📊 Dashboard Overview
 
-Call Volume by Hour & Day
+### 🔢 Key Metrics (KPIs):
+- **Call Volume**: 5000 total calls
+- **Customer Satisfaction (CSAT)**: 68.07%
+- **Call Resolve %**: 89.94%
+- **Call Abandoned %**: 18.92%
+- **Speed of Answer**: 67.52 seconds
+- **Average Call Handling Time**: 224.92 seconds
 
-Key Insights & Observations Slide:
-✔ High Call Resolve Rate (89.94%), indicating good issue resolution
-✔ Call Abandon Rate (18.92%) could be improved
-✔ CSAT at 68.07% suggests moderate customer satisfaction — improvement possible
-✔ Most Calls Handled Efficiently, but variation among agents (e.g., Greg shows good speed & resolve %)
-✔ Peak Call Volumes seen on Saturday
-✔ Most calls received between 11:00 AM to 6:00 PM
-✔ Distribution shows good percentage of Satisfied customers, but also noticeable Dissatisfied or Not Served categories
+### 👥 Agent Performance Table:
+Shows each agent’s performance based on:
+- Total Calls Handled
+- Call Abandonment Rate
+- Speed of Answer
+- Call Resolution %
+- CSAT Score
 
-Conclusion Slide:
-✔ The dashboard provides a clear overview of operational efficiency
-✔ Areas to improve: Reduce call abandon rate, enhance CSAT, focus on underperforming agents
-✔ The interactive filters allow granular insights based on Agent, Topic, Day, and Month
+### 📅 Trends & Patterns:
+- **Call Volume by Hour**: Most calls occur during business hours (13:00–18:00).
+- **Call Volume by Day**: Highest on Mondays and Saturdays.
+- **Satisfaction Level Distribution**: Majority are "Normal" or "Satisfied", with fewer "Dissatisfied" responses.
 
+---
 
+## 🔧 Tools Used
+- **Power BI Desktop** – For interactive visualization
+- **Excel/CSV** – Source data (not included here)
 
+---
 
-Call Satisfaction Level Distribution
+## 📁 Project Structure
+
+```bash
+📂 Call-Centre-Data-Analysis
+├── Screenshot.png            # Dashboard preview image
+├── CallCentreDashboard.pbix  # Power BI report file (if uploading)
+└── README.md                 # Project documentation
+
